@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "scripts/bg/tuna.js", "scripts/bg/jungle.js", "scripts/common.js", "scripts/bg/bg.js", "scripts/userTracker.js" ]
+   },
+   "browser_action": {
+      "default_icon": "assets/off38.png",
+      "default_popup": "html/popup.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "differential_fingerprint": "1.48f20b951fbf6b11423bdf569e796e27f18da350c3ec3a706dda498adb474ee8",
+   "icons": {
+      "128": "assets/on38.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqCm63BFwIQjqdfmEZQ1Bv+UxTnRBJc2k3e0D5vbtYtHdo3/qkxdRxeD1PRUmnNXNYglpMMpDTiFMv/BFomJfzEujU6bcfSKbluXnNWhPErAlahDUpGJ5oGXqVGRpAhiuGke/SqOvb5RRIRYG0W/jI6dqf0B6CnzjNHujWS2pcOSmINxnJIQV9bgjXFTCtmrR1UmUWeqxabijaLlWeEn4kpPSaY1MGMgDnd98Tv1GbSTSEaA/hW50/x4a/SxlGHZ9q2Bm5gUzksubU9+nG5wqYS4yKAqr18wF3uS0rj4De+fWaxwiWHJUegKkp5nVYHeIrcNva6nQIYnB7CYsR8DRgwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "offline_enabled": true,
+   "options_page": "html/options.html",
+   "permissions": [ "tabCapture", "tabs", "storage", "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.3"
+}
